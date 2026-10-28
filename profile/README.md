@@ -11,15 +11,6 @@ Built for people and small teams in Nigeria who want to hold dollars, pay bills 
 
 ---
 
-## What Rubbi does
-
-| Feature | How it works |
-|---|---|
-| **Rubbi wallet** | Deposit USDC into the vault contract and withdraw it at any time, even while the contract is paused. |
-| **Virtual card** | Load part of your wallet balance onto a card and unload what you don't spend. Testnet uses a clearly labelled mock card issuer. |
-| **Subscriptions** | Approve a bounded, expiring USDC allowance; each period is pulled from your own wallet when it's due, never early or twice. Pause, resume or cancel any time. |
-| **Payroll** | Pre-fund an escrow and schedule recurring USDC salaries. Missed periods stay owed and are paid one period at a time. |
-| **Sign in with your wallet** | SEP-10 authentication; no passwords, and no private key ever reaches Rubbi's servers or the browser. |
 
 ## Repositories
 
@@ -57,6 +48,16 @@ flowchart LR
 | USDC (Circle testnet, Stellar Asset Contract) | `CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA` | [View](https://stellar.expert/explorer/testnet/contract/CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA) |
 
 Full deployment record: [`deployments/testnet.json`](https://github.com/RubbiLabs/RL-smart-contracts/blob/main/deployments/testnet.json)
+
+## What Rubbi does
+
+| Feature | How it works |
+|---|---|
+| **Rubbi wallet** | Deposit USDC into the vault contract and withdraw it at any time, even while the contract is paused. |
+| **Virtual card** | Load part of your wallet balance onto a card and unload what you don't spend. Testnet uses a clearly labelled mock card issuer. |
+| **Subscriptions** | Approve a bounded, expiring USDC allowance; each period is pulled from your own wallet when it's due, never early or twice. Pause, resume or cancel any time. |
+| **Payroll** | Pre-fund an escrow and schedule recurring USDC salaries. Missed periods stay owed and are paid one period at a time. |
+| **Sign in with your wallet** | SEP-10 authentication; no passwords, and no private key ever reaches Rubbi's servers or the browser. |
 
 ## Contributing
 
