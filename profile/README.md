@@ -1,3 +1,4 @@
+<div align="left">
 
 # Rubbi
 
@@ -7,10 +8,11 @@ Built for people and small teams in Nigeria who want to hold dollars, pay bills 
 
 🧪 **Status:** live on Stellar **testnet** · open source under the **MIT** license · not yet independently audited
 
+**[Try it on testnet →](https://rubbilabs.vercel.app)**
+
 </div>
 
 ---
-
 
 ## Repositories
 
@@ -48,6 +50,9 @@ flowchart LR
 | USDC (Circle testnet, Stellar Asset Contract) | `CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA` | [View](https://stellar.expert/explorer/testnet/contract/CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA) |
 
 Full deployment record: [`deployments/testnet.json`](https://github.com/RubbiLabs/RL-smart-contracts/blob/main/deployments/testnet.json)
+
+- **Web app:** [rubbilabs.vercel.app](https://rubbilabs.vercel.app) (Stellar testnet; get test XLM from Friendbot and test USDC from [Circle's faucet](https://faucet.circle.com))
+- **API:** `https://rubbi-api.onrender.com` (free tier; the first request after a quiet period can take up to a minute)
 
 ## What Rubbi does
 
